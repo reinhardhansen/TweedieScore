@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper and the software."
+title: "TweedieScore.jl: score-driven updates and their Bayesian counterparts"
+type: software
+authors:
+  - family-names: Hansen
+    given-names: Peter Reinhard
+    affiliation: "University of North Carolina at Chapel Hill"
+  - family-names: Tong
+    given-names: Chen
+    affiliation: "Xiamen University"
+version: 0.1.0
+date-released: 2026-10-31
+license: MIT
+repository-code: "https://github.com/reinhardhansen/TweedieScore"
+keywords:
+  - Tweedie's formula
+  - score-driven models
+  - implicit score-driven updating
+  - Bayesian filtering
+  - Julia
+preferred-citation:
+  type: article
+  title: "Tweedie's Formula and Score-Driven Updating"
+  authors:
+    - family-names: Hansen
+      given-names: Peter Reinhard
+    - family-names: Tong
+      given-names: Chen
+  year: 2026
+  notes: "Working paper, arXiv:2605.15902"
+  url: "https://arxiv.org/abs/2605.15902"

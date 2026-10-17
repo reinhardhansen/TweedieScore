@@ -1,0 +1,3 @@
+nu,snr,phi,n_rep,T,grid_points,base_gh_nodes,refined_gh_nodes,maximum_absolute_path_metric_difference,maximum_absolute_oracle_metric_difference
+3.0,1.0,0.98,200,200,481,32,64,1.3622301672164272e-6,1.7147837429939972e-6
+10.0,0.25,0.8,200,200,481,32,64,1.5265566588595902e-16,1.1102230246251565e-16

@@ -1,0 +1,13 @@
+{
+  "student_t_derivatives_passed": true,
+  "maximum_score_finite_difference_error": 8.414446917015539e-11,
+  "maximum_hessian_finite_difference_error": 4.000000330961484e-10,
+  "maximum_third_finite_difference_error": 2.9838334114629106e-7,
+  "gaussian_location_identity_passed": true,
+  "large_nu": 1.0e8,
+  "maximum_large_nu_exact_kalman_error": 1.0579357057061145e-8,
+  "maximum_large_nu_implicit_kalman_error": 1.1791017051621111e-8,
+  "maximum_large_nu_mcisd_kalman_error": 1.0579356224393877e-8,
+  "maximum_implemented_kalman_error": 0.0,
+  "maximum_large_nu_implicit_equation_residual": 1.0219602941674566e-12
+}

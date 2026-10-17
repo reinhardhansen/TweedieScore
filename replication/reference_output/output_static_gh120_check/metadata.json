@@ -1,0 +1,51 @@
+{
+  "seed": 20260814,
+  "n_replications_per_cell": 100000,
+  "gauss_hermite_nodes": 120,
+  "predictive_variance_grid": [
+    0.00015625,
+    0.0003125,
+    0.000625,
+    0.00125,
+    0.0025,
+    0.005,
+    0.01,
+    0.02,
+    0.04,
+    0.08,
+    0.16,
+    0.32
+  ],
+  "slope_max_predictive_variance": 0.0025,
+  "methods": [
+    "ESD",
+    "ISD",
+    "ISD*",
+    "Explicit second order"
+  ],
+  "theoretical_rmse_slopes": {
+    "ESD": 2,
+    "ISD": 2,
+    "ISD*": 3,
+    "Explicit second order": 3
+  },
+  "main_models": [
+    "poisson",
+    "log_variance",
+    "student_t"
+  ],
+  "student_robustness_models": [
+    "student_t_3",
+    "student_t_10"
+  ],
+  "max_implicit_equation_residual": 4.907713775301192e-13,
+  "min_curvature_denominator": 0.9200000015721709,
+  "session": {
+    "julia": "1.13.2",
+    "platform": "arm64-apple-darwin27.0.0",
+    "threads": 10,
+    "blas_threads": 8,
+    "rng": "Random.Xoshiro; one stream per design cell, seeded from the master seed"
+  },
+  "runtime_seconds": 14.1770498752594
+}

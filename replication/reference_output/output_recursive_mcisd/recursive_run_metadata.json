@@ -1,0 +1,35 @@
+{
+  "seed": 20260815,
+  "n_rep": 1000,
+  "T": 500,
+  "nus": [
+    3.0,
+    5.0,
+    10.0
+  ],
+  "snrs": [
+    0.25,
+    1.0
+  ],
+  "phis": [
+    0.8,
+    0.98
+  ],
+  "grid_points": 481,
+  "grid_sd": 8.0,
+  "gh_nodes": 32,
+  "representative_design": [
+    3.0,
+    1.0,
+    0.98
+  ],
+  "representative_replication_zero_based": 404,
+  "runtime_seconds": 87.37960195541382,
+  "session": {
+    "julia": "1.13.2",
+    "platform": "arm64-apple-darwin27.0.0",
+    "threads": 10,
+    "blas_threads": 8,
+    "rng": "Random.Xoshiro; one stream per design cell, seeded from the master seed"
+  }
+}
